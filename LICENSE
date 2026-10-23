@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+---
+
+## 上游关系说明（Upstream notice）
+
+本包是 REA（Reverse Engineer Anything）的**纯配置型桥接插件**：
+它不包含任何来自上游的源代码，只通过 cordis.patch.yml 挂载 `@deepseek-ai/dsh-mcp-client`，
+由 `npx -y rea-agents@6.4.0` 在运行时拉起上游的 MCP server。
+
+- REA 本体：https://github.com/morluto/rea ，MIT，© morluto
+- 使用前请阅读上游 DISCLAIMER：https://github.com/morluto/rea/blob/main/DISCLAIMER.md
+- 本包仅提供 DSH 侧的挂载配置，其 MIT 许可以上不改变上游的许可与免责声明
