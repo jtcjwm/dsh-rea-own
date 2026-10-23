@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "REA — Reverse Engineer Anything · Modded",
+    "description": "Bridges the local REA MCP server (npm: rea-agents) so the agent can reverse engineer native binaries, JS/Electron apps, .NET assemblies, APKs, firmware and websites."
+  }
+}

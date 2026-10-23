@@ -1,0 +1,34 @@
+{
+  "name": "dsh-rea-own",
+  "version": "1.0.0",
+  "description": "REA (Reverse Engineer Anything) MCP bridge for DeepSeek Harness — reverse engineer native binaries, JS/Electron apps, .NET assemblies, APKs, firmware and websites through mcp__rea__* tools.",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "locale",
+    "icon.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtcjwm/dsh-rea-own.git"
+  },
+  "homepage": "https://github.com/jtcjwm/dsh-rea-own#readme",
+  "bugs": {
+    "url": "https://github.com/jtcjwm/dsh-rea-own/issues"
+  },
+  "author": "jtcjwm",
+  "private": true
+}
